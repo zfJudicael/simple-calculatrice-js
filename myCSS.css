@@ -1,0 +1,71 @@
+body{
+    background-color: aquamarine;
+}
+
+#machine{
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 3%;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+
+#resultat{
+    margin: 5px auto;
+    width: 370px;
+    height: 20%;
+    background-color: blueviolet;
+}
+
+.resultat{
+    padding: 10px;
+}
+
+#history{
+    font-size: 15px;
+    text-align: right;
+    margin: 0 10px;
+    padding-top: 20px;
+    color: #919191;
+}
+
+
+#output{
+    font-size: 30px;
+    text-align: right;
+    margin: 10px;
+}
+
+#output-value{
+    margin: 0;
+}
+
+#clavier{
+    margin: 5px auto;
+    width: 370px;
+    height: 75%;
+    background-color: tomato;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#empty:hover{
+    background-color: brown;
+    cursor: default;
+}
+
+.ligne{
+    display: flex;
+    background-color: red;
+    height: 20%;
+}
+
+.chiffre, .operateur{
+    flex: 1 1 0;
+    background-color: brown;
+    border: 1px solid black;
+}

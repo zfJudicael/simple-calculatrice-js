@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculatrice</title>
+        <link rel="stylesheet" href="./myCSS.css">
+        <link rel="stylesheet" href="./New Folder/fontawesome/css/all.min.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="machine">
+            <div id="resultat">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div id="clavier">
+                <div class="ligne">
+                    <button class="chiffre" id="7">7</button>
+                    <button class="chiffre" id="8">8</button>
+                    <button class="chiffre" id="9">9</button>
+                    <button class="operateur" id="*"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="ligne">
+                    <button class="chiffre" id="4">4</button>
+                    <button class="chiffre" id="5">5</button>
+                    <button class="chiffre" id="6">6</button>
+                    <button class="operateur" id="+"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="ligne">
+                    <button class="chiffre" id="1">1</button>
+                    <button class="chiffre" id="2">2</button>
+                    <button class="chiffre" id="3">3</button>
+                    <button class="operateur" id="-"><i class="fa-solid fa-minus"></i></button>
+                </div>
+                <div class="ligne">
+                    <button class="chiffre" id="empty"></button>
+                    <button class="chiffre" id="0">0</button>
+                    <button class="operateur" id="backspace"><i class="fa-solid fa-delete-left"></i></button>
+                    <button class="operateur" id="/"><i class="fa-solid fa-divide"></i></button>
+                </div>
+                <div class="ligne">
+                    <button class="operateur" id="="><i class="fa-solid fa-equals"></i></button>
+                    <button class="operateur" id="clear">Clear</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./myJs.js"></script>
+</html>
